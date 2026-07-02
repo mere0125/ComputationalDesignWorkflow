@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('JavaScript is now running!');
+  console.log('Webcore website is now running!');
 
   const button = document.getElementById('demoButton');
   const messageArea = document.getElementById('messageDisplay');
@@ -8,11 +8,12 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Button was clicked!');
 
     const currentTime = new Date().toLocaleTimeString();
-    const message = 'Hello there! This is Mere. Thanks for visiting my first website. You clicked the button at ' + currentTime + '.';
+
+    const message = 'Hello there! This is Mere. You have entered my tiny Webcore archive at ' + currentTime + '.';
 
     messageArea.textContent = message;
 
-    button.textContent = 'Thanks for clicking!';
+    button.textContent = 'message received';
 
     setTimeout(function() {
       button.textContent = 'Click Me!';
