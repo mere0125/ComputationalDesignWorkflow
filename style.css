@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #dcecff, #f7f2e8);
+  color: #111;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+}
+
+header .left {
+  color: #666;
+}
+
+header .center {
+  font-weight: 400;
+  text-align: center;
+}
+
+header .center span {
+  font-size: 12px;
+  color: #777;
+}
+
+header .right a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+main {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 20px;
+}
+
+.project-meta {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 8px;
+}
+
+.project-title {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 6px;
+}
+
+.project-subtitle {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 24px;
+}
+
+.advisor {
+  font-size: 14px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  color: #111;
+}
+
+button {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #335c67;
+  transform: translateY(-2px);
+}
+
+#messageDisplay {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  background-color: rgba(255, 255, 255, 0.65);
+  border-radius: 4px;
+  min-height: 20px;
+}
