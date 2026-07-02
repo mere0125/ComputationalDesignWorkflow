@@ -3,69 +3,87 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Mere | Module 1 Website</title>
+  <title>Mere | Webcore Module 1</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <div class="left">Columbia GSAPP</div>
+  <div class="desktop">
 
-    <div class="center">
-      Computational Design Practices<br>
-      <span>Module 1 Website</span>
+    <header class="browser-bar">
+      <div class="window-buttons">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="address-bar">
+        https://mere0125.github.io/ComputationalDesignWorkflow/
+      </div>
+
+      <div class="status">ONLINE</div>
+    </header>
+
+    <main class="window">
+
+      <div class="project-meta">CDP_WORKFLOW / 2026 / WEBCORE MODE</div>
+
+      <h1 class="project-title">Navigating Shifting Currents</h1>
+
+      <div class="project-subtitle">Mere Cui's first interactive webpage in MSCDP!!!</div>
+
+      <div class="marquee">
+        <span>WELCOME TO MY SMALL CORNER OF THE INTERNET ✦ HTML ✦ CSS ✦ JAVASCRIPT ✦</span>
+      </div>
+
+      <section>
+        <div class="section-title">Abstract</div>
+        <p>
+          This project modifies a basic HTML, CSS, and JavaScript website template
+          into a Webcore-inspired digital archive. The page uses nostalgic internet
+          visuals, browser-window composition, bright colors, and small interactive
+          moments to explore the feeling of an early personal website(^_−)−☆
+        </p>
+      </section>
+
+      <section>
+        <div class="section-title">Motivation</div>
+        <p>
+          I wanted the website to feel less like a clean corporate webpage and more
+          like a strange personal internet artifact. Webcore is interesting to me
+          because it turns old digital interfaces, pop-ups, pixel graphics, and
+          amateur web design into an aesthetic language(｡ì _ í｡)
+        </p>
+      </section>
+
+      <section>
+        <div class="section-title">Methodology</div>
+        <p>
+          I kept the original website structure from the class template, but changed
+          the visual system through color, typography, borders, window-like panels,
+          pixel details, and JavaScript interaction. The goal was to practice
+          AI-assisted “vibe coding” while still understanding how each file works（＾∇＾）
+        </p>
+      </section>
+
+      <section class="demo-panel">
+        <div class="section-title">Interactive Demo</div>
+        <p>Click the button below to open a tiny message from the website:</p>
+
+        <button id="demoButton">Click Me!</button>
+
+        <div id="messageDisplay">waiting for user input...</div>
+      </section>
+
+    </main>
+
+    <div class="popup">
+      <div class="popup-title">system_message.exe</div>
+      <p>old web energy detected</p>
     </div>
 
-    <div class="right"><a href="#">About</a></div>
-  </header>
-
-  <main>
-    <div class="project-meta">2026</div>
-
-    <div class="project-title">Navigating Shifting Currents</div>
-
-    <div class="project-subtitle">Mere Cui</div>
-
-    <div class="advisor">
-      Course<br>
-      <strong>Computational Design Workflow</strong>
-    </div>
-
-    <div class="section-title">Abstract</div>
-
-    <p>
-      This project is a basic website created with HTML, CSS, and JavaScript.
-      It introduces a simple project archive page inspired by my interest in
-      environmental systems, ocean data, and computational design (>^ω^<)
-    </p>
-
-    <div class="section-title">Motivation</div>
-
-    <p>
-      I am interested in how websites can become more than static pages. They can
-      act as interfaces for research, storytelling, and interaction. This small
-      exercise helps me understand how structure, style, and behavior work
-      together on the web~~~~~
-    </p>
-
-    <div class="section-title">Methodology</div>
-
-    <p>
-      The page uses HTML to organize the content, CSS to control the visual style,
-      and JavaScript to add a simple interactive button. Together, these three
-      files demonstrate a basic web development workflow(｡ì _ í｡)
-    </p>
-
-    <div class="section-title">Interactive Demo</div>
-
-    <p>Click the button below to see JavaScript in action:</p>
-
-    <button id="demoButton">!Click Me!</button>
-
-    <div id="messageDisplay"></div>
-  </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
