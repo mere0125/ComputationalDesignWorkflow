@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('Button was clicked!');
 
     const currentTime = new Date().toLocaleTimeString();
-    const message = 'Hello there! I'm Mere! This website is interactive. You clicked the button at ' + currentTime + '.';
+    const message = 'Hello there! This is Mere. Thanks for visiting my first website. You clicked the button at ' + currentTime + '.';
 
     messageArea.textContent = message;
 
